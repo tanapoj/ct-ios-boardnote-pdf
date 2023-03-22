@@ -1,0 +1,19 @@
+{
+    "data": [
+             {
+             "title": "title_tab_first",
+             "imageName": "tab_first",
+             "selectedImageName": "tab_first_selected"
+             },
+             {
+             "title": "title_tab_second",
+             "imageName": "tab_second",
+             "selectedImageName": "tab_second_selected"
+             },
+             {
+             "title": "title_tab_third",
+             "imageName": "tab_third",
+             "selectedImageName": "tab_third_selected"
+             }
+             ]
+}

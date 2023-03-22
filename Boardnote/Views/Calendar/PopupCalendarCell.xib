@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="PopupCalendarCell" id="I0V-uq-lch" customClass="PopupCalendarCell" customModule="MD_iNote" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="60"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="I0V-uq-lch" id="jtL-Ic-y0D">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="59.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rLU-Og-pcM">
+                        <rect key="frame" x="0.0" y="0.0" width="72" height="59.5"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bDb-3R-PhW">
+                                <rect key="frame" x="15" y="19.5" width="42" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="bDb-3R-PhW" firstAttribute="centerY" secondItem="rLU-Og-pcM" secondAttribute="centerY" id="Aoe-go-DAa"/>
+                            <constraint firstAttribute="width" constant="72" id="Jjb-wS-IlI"/>
+                            <constraint firstItem="bDb-3R-PhW" firstAttribute="centerX" secondItem="rLU-Og-pcM" secondAttribute="centerX" id="sxm-3E-6sW"/>
+                        </constraints>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="middleTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cMm-4m-aCH">
+                        <rect key="frame" x="72" y="8" width="287" height="43.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="rLU-Og-pcM" secondAttribute="bottom" id="137-Ay-ang"/>
+                    <constraint firstItem="cMm-4m-aCH" firstAttribute="top" secondItem="jtL-Ic-y0D" secondAttribute="top" constant="8" id="81U-p6-S5d"/>
+                    <constraint firstItem="rLU-Og-pcM" firstAttribute="top" secondItem="jtL-Ic-y0D" secondAttribute="top" id="Ibm-9C-zEh"/>
+                    <constraint firstAttribute="trailing" secondItem="cMm-4m-aCH" secondAttribute="trailing" constant="16" id="L87-PY-jRq"/>
+                    <constraint firstItem="rLU-Og-pcM" firstAttribute="leading" secondItem="jtL-Ic-y0D" secondAttribute="leading" id="XrA-vA-HL8"/>
+                    <constraint firstAttribute="bottom" secondItem="cMm-4m-aCH" secondAttribute="bottom" constant="8" id="bWk-MO-ikq"/>
+                    <constraint firstItem="cMm-4m-aCH" firstAttribute="leading" secondItem="rLU-Og-pcM" secondAttribute="trailing" id="tBe-r2-9ZF"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="subtitleLabel" destination="bDb-3R-PhW" id="H1m-SS-d7g"/>
+                <outlet property="titleLabel" destination="cMm-4m-aCH" id="Tgh-sa-Fnx"/>
+            </connections>
+            <point key="canvasLocation" x="-23.5" y="81"/>
+        </tableViewCell>
+    </objects>
+</document>

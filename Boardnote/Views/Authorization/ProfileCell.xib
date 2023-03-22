@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="ProfileCell" id="Dqj-U8-85U" customClass="ProfileCell" customModule="MD_iNote" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Dqj-U8-85U" id="vg8-LP-zeH">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Qx9-l8-sba">
+                        <rect key="frame" x="16" y="14" width="16" height="16"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="Qx9-l8-sba" secondAttribute="height" multiplier="1:1" id="F7h-at-xtc"/>
+                            <constraint firstAttribute="width" constant="16" id="Xca-x4-OcF"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vsa-Ft-5gH">
+                        <rect key="frame" x="48" y="11.5" width="311" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="Qx9-l8-sba" firstAttribute="centerY" secondItem="vg8-LP-zeH" secondAttribute="centerY" id="Pdu-Vp-Icv"/>
+                    <constraint firstItem="Vsa-Ft-5gH" firstAttribute="leading" secondItem="Qx9-l8-sba" secondAttribute="trailing" constant="16" id="XUg-f8-BA4"/>
+                    <constraint firstItem="Qx9-l8-sba" firstAttribute="leading" secondItem="vg8-LP-zeH" secondAttribute="leading" constant="16" id="bpY-MQ-Bz9"/>
+                    <constraint firstAttribute="trailing" secondItem="Vsa-Ft-5gH" secondAttribute="trailing" constant="16" id="cZA-MC-Qra"/>
+                    <constraint firstItem="Vsa-Ft-5gH" firstAttribute="centerY" secondItem="vg8-LP-zeH" secondAttribute="centerY" id="ctF-cC-L4Y"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="iconImageView" destination="Qx9-l8-sba" id="TH5-qc-wHY"/>
+                <outlet property="iconImageViewWidth" destination="Xca-x4-OcF" id="RsL-Ak-PuZ"/>
+                <outlet property="titleLabel" destination="Vsa-Ft-5gH" id="bve-36-xVB"/>
+            </connections>
+            <point key="canvasLocation" x="118.5" y="200"/>
+        </tableViewCell>
+    </objects>
+</document>

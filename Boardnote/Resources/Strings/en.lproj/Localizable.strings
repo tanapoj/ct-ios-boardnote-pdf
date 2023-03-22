@@ -1,0 +1,72 @@
+/* 
+  Localizable.strings
+  Boardnote
+
+  Created by Julapong Techapakornrat on 18/05/2018.
+  Copyright © 2018 Super Scores Co., Ltd. All rights reserved.
+*/
+
+// MARK: Libraries - TabBar
+"title_tab_first" = "หน้าแรก";
+"title_tab_second" = "คลังเอกสาร";
+"title_tab_third" = "ปฎิทินเอกสารการประชุม";
+"title_tab_fourth" = "โปรไฟล์";
+"title_tab_fifth" = "Fifth";
+// MARK: Libraries - Navigation
+"title_navigation_first" = "ระบบการจัดการเอกสาร";
+"title_navigation_second" = "คลังเอกสาร";
+"title_navigation_third" = "ปฎิทินเอกสารการประชุม";
+"title_navigation_fourth" = "โปรไฟล์";
+"title_navigation_fifth" = "Fifth Page";
+// MARK: Libraries - No data
+"no_data_retry_title" = "ขออภัย!";
+"no_data_retry_subtitle" = "ไม่มีการเชื่อมต่ออินเทอร์เน็ต กรุณาตรวจสอบการเชื่อมต่อของคุณหรือลองอีกครั้งในภายหลัง";
+"data_not_found" = "ไม่พบข้อมูล";
+"retry" = "ลองใหม่";
+
+// MARK: Content
+"username" = "บัญชีผู้ใช้งาน";
+"password" = "รหัสผ่าน";
+"login" = "เข้าสู่ระบบ";
+"logout" = "ออกจากระบบ";
+"change_password" = "เปลี่ยนรหัสผ่าน";
+"forgot_password" = "ลืมรหัสผ่าน ?";
+"original" = "ต้นฉบับ";
+"modify" = "แก้ไข";
+"settings" = "ตั้งค่า";
+"done" = "เสร็จ";
+"today" = "วันนี้";
+"cancel" = "ยกเลิก";
+"check_in" = "ลงชื่อเข้าประชุม";
+"audience" = "ผู้เข้าประชุม";
+"number_title" = "วาระที่";
+"view_mode" = "View Mode";
+"view_mode_continuous" = "Continuous";
+"view_mode_singlepage" = "Single Page";
+"view_mode_facing" = "Facing";
+"view_mode_coverfacing" = "Cover Facing";
+"night_mode" = "โหมดกลางคืน";
+"overall_title" = "ภาพรวมทั้งหมด";
+"search" = "ค้นหา";
+"about_us" = "เกี่ยวกับ MD iNote";
+// MARK: alert
+"alert_title_warning" = "ขออภัย!";
+"alert_title_caution" = "คำเตือน!";
+"alert_title_completed" = "เสร็จสมบูรณ์";
+"alert_message_error" = "เกิดข้อผิดพลาด กรุณาติดต่อเจ้าหน้าที่ผู้ดูแลระบบ";
+"alert_message_pdf_leave" = "เอกสารมีการเปลี่ยนแปลง คุณต้องการบันทึกก่อนออกหรือไม่?";
+"alert_message_valid_login" = "บัญชีผู้ใช้งานหรือรหัสผ่านไม่ถูกต้อง กรุณาลองใหม่อีกครั้ง";
+"alert_message_valid_token" = "เซสชั่นหมดอายุแล้ว กรุณาเข้าสู่ระบบใหม่อีกครั้ง";
+"alert_message_valid_certificate" = "เกิดข้อผิดพลาดเกี่ยวกับ 'Certificate' กรุณาติดต่อเจ้าหน้าที่ผู้ดูแลระบบ";
+"alert_message_latest_version" = "มีเวอร์ชั่นใหม่! กรุณาอัพเดตเวอร์ชั่นก่อนใช้งาน";
+"alert_action_ok" = "ตกลง";
+"alert_action_save" = "บันทึก";
+"alert_action_do_not_save" = "ไม่";
+// MARK: Sentence
+"sentence_checkin_description" = "ท่านจะสามารถทำการลงชื่อเข้าประชุมได้เมื่ออยู่ภายในรัศมีของอุปกรณ์ Beacon โดยทำการเปิดใช้งาน Bluetooth และอนุญาตให้เข้าถึงตำแหน่งที่ตั้งตลอดเวลา";
+"sentence_checkin_already" = "ลงชื่อเข้าประชุมเรียบร้อยแล้ว";
+// MARK: From Server
+"[jwt_auth] invalid_username" = "บัญชีผู้ใช้งานหรือรหัสผ่านไม่ถูกต้อง กรุณาลองใหม่อีกครั้ง";
+"[jwt_auth] incorrect_password" = "บัญชีผู้ใช้งานหรือรหัสผ่านไม่ถูกต้อง กรุณาลองใหม่อีกครั้ง";
+"[jwt_auth] ip_blocked" = "คุณได้ลองใช้การเข้าสู่ระบบสูงสุดแล้ว กรุณาลองใหม่หลังจากนี้ 15 นาที";
+
